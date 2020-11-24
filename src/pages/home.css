@@ -1,0 +1,49 @@
+h1{
+    color: darkred;
+}
+h1::first-letter{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 16px;
+}
+h2::first-letter{
+    text-transform: uppercase;
+}
+hr{
+    height: 1px;
+    background-color: darkred;
+ 
+    text-align: left;
+    margin-bottom: 40px;
+   
+}
+.preview--wrapper{
+    background-color: rgb(228, 227, 227);
+    padding:10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(238, 238, 238, 0.8);
+    margin-bottom: 10px;
+    min-height: 100px;
+    position: relative;
+}
+.preview--wrapper:hover{
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+}
+.read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: darkred;
+}
+.link--block{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+.button--load{
+    margin: 20px
+}
